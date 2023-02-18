@@ -10,7 +10,7 @@ int [] CreatNewArray(int size_array)
     int[] random01array = new int [size_array];
     for (int i = 0; i < size_array; i++)
     {
-        random01array[i] = new Random().Next(0,1000);
+        random01array[i] = new Random().Next(0,10);
     }
     return  random01array;
 }
